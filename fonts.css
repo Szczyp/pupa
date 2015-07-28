@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'https://8d1d631edabe81de70a3c8cef589f4b55242ed94.googledrive.com/host/0ByuC3kzSJZocfkpDaHcyZy1DaVpTdmRYeGU5d1IyOEw3WURsMHVaRTlaLXJiWEljeUlyZFk/Charter';
+    src: url('Charter-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Fira Sans';
+    src: url('https://8d1d631edabe81de70a3c8cef589f4b55242ed94.googledrive.com/host/0ByuC3kzSJZocfkpDaHcyZy1DaVpTdmRYeGU5d1IyOEw3WURsMHVaRTlaLXJiWEljeUlyZFk/FiraSans-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+::selection {
+    color: white;
+    background: black;
+}
