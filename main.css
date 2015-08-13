@@ -1,11 +1,10 @@
 body {
   font-family: Fira Sans;
   font-size: 1em;
-  line-height: 1.5;
+  line-height: 1;
 }
 
 input {
-  font-family: Charter;
   font-size: 1em;
   margin: 0;
   padding: 0;
@@ -18,7 +17,6 @@ input:focus {
 }
 
 select {
-  font-family: Charter;
   font-size: 1em;
   border-style: none;
   background-color: white;
@@ -30,15 +28,63 @@ select:focus {
   outline: none;
 }
 
+h1 {
+  font-family: Charter;
+}
+
+h2 {
+  font-family: Charter;
+}
+
+#viewport {
+  margin-right: 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 30em;
+  margin-left: 0;
+  padding-right: 0;
+  box-sizing: border-box;
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+#bookmarks {
+  width: 100%;
+  max-width: 3%;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  list-style-type: none;
+  margin-left: .5em;
+  padding-right: .1em;
+  box-sizing: border-box;
+  display: flex;
+  flex: 1 0 3%;
+  padding-left: .1em;
+}
+
+#bookmarks a {
+  font-size: 1.25em;
+  text-decoration: none;
+  color: inherit;
+}
+
+#worksheet {
+  box-sizing: border-box;
+  flex: 1 0 97%;
+  max-width: 97%;
+  padding-right: .1em;
+  padding-left: .1em;
+}
+
 .searches {
   box-sizing: border-box;
-  margin-left: -1em;
   list-style: none;
   flex-wrap: wrap;
-  padding-right: 1.5em;
-  padding-left: 1.5em;
+  padding-right: 0;
+  padding-left: 0;
   display: flex;
-  margin-right: -1em;
   flex-direction: column;
 }
 
@@ -47,16 +93,14 @@ select:focus {
 }
 
 .terms {
-  margin-right: -1em;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-bottom: .2em;
-  margin-left: -1em;
-  padding-right: 1.5em;
   box-sizing: border-box;
-  display: flex;
-  padding-left: 1.5em;
   list-style: none;
+  flex-wrap: wrap;
+  padding-right: 0;
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: .2em;
 }
 
 .term {
@@ -69,19 +113,17 @@ select:focus {
   flex-direction: column;
 }
 
-.results {
+.cards {
   box-sizing: border-box;
-  margin-left: -1em;
   list-style: none;
   flex-wrap: wrap;
-  padding-right: 1.5em;
-  padding-left: 1.5em;
+  padding-right: 0;
+  padding-left: 0;
   display: flex;
-  margin-right: -1em;
   flex-direction: row;
 }
 
-.result {
+.card {
   box-sizing: border-box;
   flex: 1 0 16.667%;
   max-width: 16.667%;
@@ -89,6 +131,6 @@ select:focus {
   padding-left: .1em;
 }
 
-.result img {
+.card img {
   max-width: 100%;
 }
