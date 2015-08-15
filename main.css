@@ -36,7 +36,7 @@ h2 {
   font-family: Charter;
 }
 
-#viewport {
+#root {
   margin-right: 0;
   flex-direction: row;
   flex-wrap: wrap;
@@ -47,6 +47,29 @@ h2 {
   display: flex;
   padding-left: 0;
   list-style: none;
+}
+
+#deck-title {
+  box-sizing: border-box;
+  list-style: none;
+  flex-wrap: wrap;
+  padding-right: 1.5em;
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 0;
+}
+
+#deck-title input {
+  margin-left: 1em;
+  border-bottom: .1em;
+  border-color: black;
+  border-style: solid;
+}
+
+#deck-title i {
+  margin-left: .5em;
 }
 
 #bookmarks {
